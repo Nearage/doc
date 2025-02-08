@@ -186,5 +186,5 @@ Extensión que permite resaltar y organizar comentarios con etiquetas como TODO,
 
 ## Ejemplo
 
-El repositorio contiene un archivo [settings.json](./settings.json) completo a modo de demostración, que reúne todas estas configuraciones en un solo lugar para su fácil implementación en Visual Studio Code.
+El repositorio contiene un archivo [settings.jsonc](./settings.jsonc) completo y comentado a modo de demostración, así como un archivo [settings.json](./settings.json), que reúne todas estas configuraciones en un solo lugar para su fácil implementación en Visual Studio Code.
 

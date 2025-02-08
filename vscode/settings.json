@@ -1,70 +1,62 @@
 {
-  /* Editor */
-  "editor.colorDecorators": false,                             // Deshabilitar selectores de color.
-  "editor.detectIndentation": false,                           // Deshabilitar detección de sangría.
-  "editor.fontSize": 13,                                       // Tamaño de la fuente. 
-  "editor.minimap.side": "left",                               // Colocar el minimapa a la izquierda.
-  "editor.multiCursorModifier": "ctrlCmd",                     // Usar Ctrl/Cmd para crear múltiples cursores.
-  "editor.stickyScroll.defaultModel": "indentationModel",      // Usar modelo de desplazamiento adhesivo por sangría.
-  "editor.tabSize": 2,                                         // Tamaño de la tabulación.
-  /* Keyboard */
-  "keyboard.dispatch": "keyCode",                              // Modo de procesamiento de eventos de teclado.
-  /* Window */
-  "window.titleBarStyle": "custom",                            // Estilo de la barra de título.
-  /* Workbench */
-  "workbench.activityBar.location": "top",                     // Posición de la barra de actividades.
-  "workbench.sideBar.location": "right",                       // Posición de la barra lateral.
-  /* Git */
-  "git.defaultBranchName": "main",                             // Nombre predeterminado para nuevas ramas.
-  /* CodeSnap */
-  "codesnap.backgroundColor": "transparent",                   // Usar fondo transparente.
-  "codesnap.boxShadow": "#0009 0 .25em .75em",                 // Sombra del recuadro.
-  "codesnap.containerPadding": "1em",                          // Espaciado del contenedor.
-  "codesnap.realLineNumbers": true,                            // Usar números de línea reales.
-  "codesnap.roundedCorners": true,                             // Usar bordes redondeados.
-  "codesnap.showWindowControls": false,                        // Ocultar controles de ventana.
-  "codesnap.showWindowTitle": true,                            // Mostrar título de ventana.
-  /* GitHub Copilot + GitHub Copilot Chat */
-  "github.copilot.chat.localeOverride": "es",                  // Anula la configuración de la región del sistema.
-  "github.copilot.enable": {                                   // Configuración de GitHub Copilot para lengujes específicos.
-    "markdown": true,                                          // Habilitar GitHub Copilot para Markdown.
+  "editor.colorDecorators": false,
+  "editor.detectIndentation": false,
+  "editor.fontSize": 13,
+  "editor.minimap.side": "left",
+  "editor.multiCursorModifier": "ctrlCmd",
+  "editor.stickyScroll.defaultModel": "indentationModel",
+  "editor.tabSize": 2,
+  "keyboard.dispatch": "keyCode",
+  "window.titleBarStyle": "custom",
+  "workbench.activityBar.location": "top",
+  "workbench.sideBar.location": "right",
+  "git.defaultBranchName": "main",
+  "codesnap.backgroundColor": "transparent",
+  "codesnap.boxShadow": "#0009 0 .25em .75em",
+  "codesnap.containerPadding": "1em",
+  "codesnap.realLineNumbers": true,
+  "codesnap.roundedCorners": true,
+  "codesnap.showWindowControls": false,
+  "codesnap.showWindowTitle": true,
+  "github.copilot.chat.localeOverride": "es",
+  "github.copilot.enable": {
+    "markdown": true,
   },
-  /* Todo Tree */
-  "todo-tree.general.tags": [                                  // Etiquetas.
-    " edit ",                                                  // Etiqueta para anotaciones de edición.
-    " info ",                                                  // Etiqueta para notas informativas.
-    " todo ",                                                  // Etiquera para tareas pendientes.
-    " warn ",                                                  // Etiqueta para resaltar puntos críticos.
+  "todo-tree.general.tags": [
+    " edit ",
+    " info ",
+    " todo ",
+    " warn ",
   ],
-  "todo-tree.highlights.defaultHighlight": {                   // Resaltado predeterminado.
-    "borderRadius": "1em",                                     // Usar bordes redondeados.
-    "gutterIcon": true,                                        // Mostrar icono en el margen.
-    "type": "tag",                                             // Restaltar etiqueta.
+  "todo-tree.highlights.defaultHighlight": {
+    "borderRadius": "1em",
+    "gutterIcon": true,
+    "type": "tag",
   },
-  "todo-tree.highlights.customHighlight": {                    // Resaltado personalizado.
-    " edit ":{                                                 // Estilo de la etiqueta " edit ".
-      "background": "#0f9",                                    // Usar fondo de color turquesa.
-      "foreground": "#000",                                    // Usar texto de color negro.
-      "icon": "pencil",                                        // Usar icono de lápiz.
-      "iconColour": "#0f9",                                    // Usar icono de color turquesa.
+  "todo-tree.highlights.customHighlight": {
+    " edit ":{
+      "background": "#0f9",
+      "foreground": "#000",
+      "icon": "pencil",
+      "iconColour": "#0f9",
     },
-    " info ": {                                                // Estilo de la etiqueta " info ".
-      "background": "#09f",                                    // Usar fondo de color azul.
-      "foreground": "#000",                                    // Usar texto de color negro.
-      "icon": "info",                                          // Usar icono de información.
-      "iconColour": "#09f",                                    // Usar icono de color azul.
+    " info ": {
+      "background": "#09f",
+      "foreground": "#000",
+      "icon": "info",
+      "iconColour": "#09f",
     },
-    " todo ": {                                                // Estilo de la etiqueta " todo ".
-      "background": "#fff",                                    // Usar fondo de color blanco.
-      "foreground": "#000",                                    // Usar texto de color negro.
-      "icon": "checklist",                                     // Usar icono de lista de tareas.
-      "iconColour": "#fff",                                    // Usar icono de color blanco.
+    " todo ": {
+      "background": "#fff",
+      "foreground": "#000",
+      "icon": "checklist",
+      "iconColour": "#fff",
     },
-    " warn ": {                                                // Estilo de la etiqueta " warn ".
-      "background": "#fd0",                                    // Usar fondo de color amarillo.
-      "foreground": "#000",                                    // Usar texto de color negro.
-      "icon": "alert",                                         // Usar icono de alerta.
-      "iconColour": "#fd0",                                    // Usar icono de color amarillo.
+    " warn ": {
+      "background": "#fd0",
+      "foreground": "#000",
+      "icon": "alert",
+      "iconColour": "#fd0",
     },
   },
 }
