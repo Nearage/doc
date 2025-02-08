@@ -127,6 +127,7 @@ Extensiones de inteligencia artificial para asistencia en la programación media
 > **VS Marketplace Link**: [https://marketplace.visualstudio.com/items?itemName=GitHub.copilot-chat](https://marketplace.visualstudio.com/items?itemName=GitHub.copilot-chat)
 
 ```jsonc
+"github.copilot.chat.localeOverride": "es",                  // Anula la configuración de la región del sistema.
 "github.copilot.enable": {                                   // Configuración de GitHub Copilot para lenguajes específicos.
   "markdown": true,                                          // Habilitar GitHub Copilot para Markdown.
 },
