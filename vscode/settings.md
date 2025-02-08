@@ -10,7 +10,7 @@ Este apartado define la configuración general del editor, incluyendo opciones d
 
 Opciones relacionadas con la apariencia y comportamiento del editor de texto, incluyendo el tamaño de fuente, la detección de sangría y la disposición del minimapa.
 
-```json
+```jsonc
 "editor.colorDecorators": false,                             // Deshabilitar selectores de color.
 "editor.detectIndentation": false,                           // Deshabilitar detección de sangría.
 "editor.fontSize": 13,                                       // Tamaño de la fuente.
@@ -24,7 +24,7 @@ Opciones relacionadas con la apariencia y comportamiento del editor de texto, in
 
 Configuración del comportamiento del teclado y la forma en que se procesan los eventos de entrada.
 
-```json
+```jsonc
 "keyboard.dispatch": "keyCode",                              // Modo de procesamiento de eventos de teclado.
 ```
 
@@ -32,7 +32,7 @@ Configuración del comportamiento del teclado y la forma en que se procesan los 
 
 Ajustes de la interfaz de la ventana de Visual Studio Code, como el estilo de la barra de título.
 
-```json
+```jsonc
 "window.titleBarStyle": "custom",                            // Estilo de la barra de título.
 ```
 
@@ -40,7 +40,7 @@ Ajustes de la interfaz de la ventana de Visual Studio Code, como el estilo de la
 
 Configuraciones relacionadas con la distribución y disposición de las barras y paneles dentro del entorno de trabajo.
 
-```json
+```jsonc
 "workbench.activityBar.location": "top",                     // Posición de la barra de actividades.
 "workbench.sideBar.location": "right",                       // Posición de la barra lateral.
 ```
@@ -49,7 +49,7 @@ Configuraciones relacionadas con la distribución y disposición de las barras y
 
 Definición de la rama por defecto al inicializar nuevos repositorios Git.
 
-```json
+```jsonc
 "git.defaultBranchName": "main",                             // Nombre predeterminado para nuevas ramas.
 ```
 
@@ -57,7 +57,7 @@ Definición de la rama por defecto al inicializar nuevos repositorios Git.
 
 Configuración de combinaciones de teclas personalizadas para mejorar la eficiencia en el uso del editor.
 
-```json
+```jsonc
 {
   "key": "shift+alt+f",                                      // Shift + Alt + F
   "command": "editor.action.formatDocument",                 // Formatea el documento.
@@ -98,7 +98,7 @@ Extensión que permite capturar capturas de pantalla de fragmentos de código co
 > **Publisher**: adpyke\
 > **VS Marketplace Link**: [https://marketplace.visualstudio.com/items?itemName=adpyke.codesnap](https://marketplace.visualstudio.com/items?itemName=adpyke.codesnap)
 
-```json
+```jsonc
 "codesnap.backgroundColor": "transparent",                   // Usar fondo transparente.
 "codesnap.boxShadow": "#0009 0 .25em .75em",                 // Sombra del recuadro.
 "codesnap.containerPadding": "1em",                          // Espaciado del contenedor.
@@ -126,7 +126,7 @@ Extensiones de inteligencia artificial para asistencia en la programación media
 > **Publisher**: GitHub\
 > **VS Marketplace Link**: [https://marketplace.visualstudio.com/items?itemName=GitHub.copilot-chat](https://marketplace.visualstudio.com/items?itemName=GitHub.copilot-chat)
 
-```json
+```jsonc
 "github.copilot.enable": {                                   // Configuración de GitHub Copilot para lenguajes específicos.
   "markdown": true,                                          // Habilitar GitHub Copilot para Markdown.
 },
@@ -143,7 +143,7 @@ Extensión que permite resaltar y organizar comentarios con etiquetas como TODO,
 > **Publisher**: Gruntfuggly\
 > **VS Marketplace Link**: [https://marketplace.visualstudio.com/items?itemName=Gruntfuggly.todo-tree](https://marketplace.visualstudio.com/items?itemName=Gruntfuggly.todo-tree)
 
-```json
+```jsonc
 "todo-tree.general.tags": [                                  // Etiquetas utilizadas en los comentarios.
   " edit ",                                                  // Etiqueta para anotaciones de edición.
   " info ",                                                  // Etiqueta para notas informativas.
