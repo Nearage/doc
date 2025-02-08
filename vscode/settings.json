@@ -24,7 +24,7 @@
   "codesnap.roundedCorners": true,                             // Usar bordes redondeados.
   "codesnap.showWindowControls": false,                        // Ocultar controles de ventana.
   "codesnap.showWindowTitle": true,                            // Mostrar título de ventana.
-  /* GitHub Copilot */
+  /* GitHub Copilot + GitHub Copilot Chat */
   "github.copilot.chat.localeOverride": "es",                  // Anula la configuración de la región del sistema.
   "github.copilot.enable": {                                   // Configuración de GitHub Copilot para lengujes específicos.
     "markdown": true,                                          // Habilitar GitHub Copilot para Markdown.
