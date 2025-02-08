@@ -47,7 +47,7 @@ Configuraciones relacionadas con la distribución y disposición de las barras y
 
 ### Git
 
-Definición de la rama por defecto al inicializar nuevos repositorios Git.
+Configuración relacionada con Git y repositorios de código.
 
 ```jsonc
 "git.defaultBranchName": "main",                             // Nombre predeterminado para nuevas ramas.
