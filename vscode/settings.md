@@ -87,21 +87,6 @@ Configuración de combinaciones de teclas personalizadas para mejorar la eficien
 
 Esta sección abarca la configuración de extensiones específicas instaladas en Visual Studio Code, detallando su propósito y los parámetros clave que afectan su comportamiento.
 
-### Cyber Dev Colors
-
-Extensión que permite establecer un tema personalizado para el editor.
-
-> **Name**: Cyber Dev Colors  
-> **Id**: adetena.cyber-dev-colors  
-> **Description**: Cyber developer color theme.  
-> **Version**: 1.0.0  
-> **Publisher**: adetena  
-> **VS Marketplace Link**: https://marketplace.visualstudio.com/items?itemName=adetena.cyber-dev-colors
-
-```jsonc
-"workbench.colorTheme": "Cyber Dev",                         // Tema de color del área de trabajo.
-```
-
 ### CodeSnap
 
 Extensión que permite capturar capturas de pantalla de fragmentos de código con un diseño atractivo y personalizable.
@@ -121,6 +106,21 @@ Extensión que permite capturar capturas de pantalla de fragmentos de código co
 "codesnap.roundedCorners": true,                             // Usar bordes redondeados.
 "codesnap.showWindowControls": false,                        // Ocultar controles de ventana.
 "codesnap.showWindowTitle": true,                            // Mostrar título de ventana.
+```
+
+### Cyber Dev Colors
+
+Extensión que permite establecer un tema personalizado para el editor.
+
+> **Name**: Cyber Dev Colors  
+> **Id**: adetena.cyber-dev-colors  
+> **Description**: Cyber developer color theme.  
+> **Version**: 1.0.0  
+> **Publisher**: adetena  
+> **VS Marketplace Link**: https://marketplace.visualstudio.com/items?itemName=adetena.cyber-dev-colors
+
+```jsonc
+"workbench.colorTheme": "Cyber Dev",                         // Tema de color del área de trabajo.
 ```
 
 ### GitHub Copilot + GitHub Copilot Chat

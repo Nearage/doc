@@ -11,25 +11,6 @@
   "workbench.activityBar.location": "top",
   "workbench.sideBar.location": "right",
   "git.defaultBranchName": "main",
-  "workbench.colorTheme": "Brio Terminal Yellow-Dark",
-  "workbench.colorCustomizations": {
-    "activityBarTop.activeBorder": "#fb0",
-    "commandCenter.border": "#fb0",
-    "contrastBorder": "#0000",
-    "editorGroupHeader.border": "#0000",
-    "editorIndentGuide.background1": "#0000",
-    "list.inactiveSelectionBackground": "#fb09",
-    "scrollbarSlider.background": "#fb09",
-    "sideBar.border": "#fb00",
-    "sideBarActivityBarTop.border": "#0000",
-    "sideBarSectionHeader.background": "#111",
-    "sideBarSectionHeader.border": "#fb00",
-    "sideBarTitle.border": "#fb0",
-    "statusBar.border": "#fb0",
-    "tab.border": "#0000",
-    "tree.indentGuidesStroke": "#0000",
-    "widget.border": "#fb0"
-  },
   "codesnap.backgroundColor": "transparent",
   "codesnap.boxShadow": "#0009 0 .25em .75em",
   "codesnap.containerPadding": "1em",
@@ -37,6 +18,7 @@
   "codesnap.roundedCorners": true,
   "codesnap.showWindowControls": false,
   "codesnap.showWindowTitle": true,
+  "workbench.colorTheme": "Cyber Dev",
   "github.copilot.chat.localeOverride": "es",
   "github.copilot.enable": {
     "markdown": true

@@ -16,26 +16,6 @@
   "workbench.sideBar.location": "right",                       // Posición de la barra lateral.
   /* Git */
   "git.defaultBranchName": "main",                             // Nombre predeterminado para nuevas ramas.
-  /* Brio Terminal Yellow */ 
-  "workbench.colorTheme": "Brio Terminal Yellow-Dark",         // Tema de color del área de trabajo.
-  "workbench.colorCustomizations": {                           // Personalizaciones de color del área de trabajo.
-    "activityBarTop.activeBorder": "#fb0",                     // Borde activo de la barra de actividades superior.
-    "commandCenter.border": "#fb0",                            // Borde del centro de comandos.
-    "contrastBorder": "#0000",                                 // Borde de contraste.
-    "editorGroupHeader.border": "#0000",                       // Borde del encabezado del grupo de editores.
-    "editorIndentGuide.background1": "#0000",                  // Fondo de la guía de sangría del editor.
-    "list.inactiveSelectionBackground": "#fb09",               // Fondo de la selección inactiva en listas.
-    "scrollbarSlider.background": "#fb09",                     // Fondo del control deslizante de la barra de desplazamiento.
-    "sideBar.border": "#fb00",                                 // Borde de la barra lateral.
-    "sideBarActivityBarTop.border": "#0000",                   // Borde de la barra de actividades superior en la barra lateral.
-    "sideBarSectionHeader.background": "#111",                 // Fondo del encabezado de sección de la barra lateral.
-    "sideBarSectionHeader.border": "#fb00",                    // Borde del encabezado de sección de la barra lateral.
-    "sideBarTitle.border": "#fb0",                             // Borde del título de la barra lateral.
-    "statusBar.border": "#fb0",                                // Borde de la barra de estado.
-    "tab.border": "#0000",                                     // Borde de las pestañas.
-    "tree.indentGuidesStroke": "#0000",                        // Trazo de las guías de sangría en árboles.
-    "widget.border": "#fb0"                                    // Borde de los widgets.
-  },
   /* CodeSnap */
   "codesnap.backgroundColor": "transparent",                   // Usar fondo transparente.
   "codesnap.boxShadow": "#0009 0 .25em .75em",                 // Sombra del recuadro.
@@ -44,6 +24,8 @@
   "codesnap.roundedCorners": true,                             // Usar bordes redondeados.
   "codesnap.showWindowControls": false,                        // Ocultar controles de ventana.
   "codesnap.showWindowTitle": true,                            // Mostrar título de ventana.
+  /* Cyber Dev */ 
+  "workbench.colorTheme": "Cyber Dev",                         // Tema de color del área de trabajo.
   /* GitHub Copilot + GitHub Copilot Chat */
   "github.copilot.chat.localeOverride": "es",                  // Anula la configuración de la región del sistema.
   "github.copilot.enable": {                                   // Configuración de GitHub Copilot para lengujes específicos.
