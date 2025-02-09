@@ -54,10 +54,10 @@
       "iconColour": "#fff"
     },
     " warn ": {
-      "background": "#fd0",
+      "background": "#fb0",
       "foreground": "#000",
       "icon": "alert",
-      "iconColour": "#fd0"
+      "iconColour": "#fb0"
     }
   }
 }

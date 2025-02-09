@@ -62,10 +62,10 @@
       "iconColour": "#fff"                                     // Usar icono de color blanco.
     },
     " warn ": {                                                // Estilo de la etiqueta " warn ".
-      "background": "#fd0",                                    // Usar fondo de color amarillo.
+      "background": "#fb0",                                    // Usar fondo de color amarillo.
       "foreground": "#000",                                    // Usar texto de color negro.
       "icon": "alert",                                         // Usar icono de alerta.
-      "iconColour": "#fd0"                                     // Usar icono de color amarillo.
+      "iconColour": "#fb0"                                     // Usar icono de color amarillo.
     }
   }
 }
