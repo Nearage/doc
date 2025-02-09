@@ -100,6 +100,7 @@ Extensión que permite establecer un tema personalizado para el editor.
 
 ```jsonc
 "workbench.colorTheme": "Cyber Dev",                         // Tema de color del área de trabajo.
+```
 
 ### CodeSnap
 
