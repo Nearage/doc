@@ -42,7 +42,6 @@ Configuraciones relacionadas con la distribución y disposición de las barras y
 
 ```jsonc
 "workbench.activityBar.location": "top",                     // Posición de la barra de actividades.
-"workbench.colorTheme": "Brio Terminal Yellow-Dark",         // Usar el tema Brio Terminal Yellow-Dark.
 "workbench.sideBar.location": "right",                       // Posición de la barra lateral.
 ```
 
@@ -98,6 +97,16 @@ Extensión que permite establecer un tema personalizado para el editor.
 > **Version**: 0.0.1  
 > **Publisher**: HUSAM  
 > **VS Marketplace Link**: https://marketplace.visualstudio.com/items?itemName=HUSAM.brio-terminal-yellow
+
+```json
+"workbench.colorTheme": "Brio Terminal Yellow-Dark",
+"workbench.colorCustomizations": {
+  "editorIndentGuide.background1": "#0000",
+  "scrollbarSlider.background": "#fb09",
+  "tab.border": "#0000",
+  "tree.indentGuidesStroke": "#0000",
+},
+```
 
 ### CodeSnap
 

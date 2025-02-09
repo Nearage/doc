@@ -9,9 +9,15 @@
   "keyboard.dispatch": "keyCode",
   "window.titleBarStyle": "custom",
   "workbench.activityBar.location": "top",
-  "workbench.colorTheme": "Brio Terminal Yellow-Dark",
   "workbench.sideBar.location": "right",
   "git.defaultBranchName": "main",
+  "workbench.colorTheme": "Brio Terminal Yellow-Dark",
+  "workbench.colorCustomizations": {
+    "editorIndentGuide.background1": "#0000",
+    "scrollbarSlider.background": "#fb09",
+    "tab.border": "#0000",
+    "tree.indentGuidesStroke": "#0000"
+  },
   "codesnap.backgroundColor": "transparent",
   "codesnap.boxShadow": "#0009 0 .25em .75em",
   "codesnap.containerPadding": "1em",

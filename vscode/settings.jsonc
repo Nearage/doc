@@ -13,10 +13,17 @@
   "window.titleBarStyle": "custom",                            // Estilo de la barra de título.
   /* Workbench */
   "workbench.activityBar.location": "top",                     // Posición de la barra de actividades.
-  "workbench.colorTheme": "Brio Terminal Yellow-Dark",         // Usar el tema Brio Terminal Yellow-Dark.
   "workbench.sideBar.location": "right",                       // Posición de la barra lateral.
   /* Git */
   "git.defaultBranchName": "main",                             // Nombre predeterminado para nuevas ramas.
+  /* Brio Terminal Yellow */ 
+  "workbench.colorTheme": "Brio Terminal Yellow-Dark",         // Usar el tema Brio Terminal Yellow-Dark.
+  "workbench.colorCustomizations": {                           // Personalizaciones del esquema de colores.
+    "editorIndentGuide.background1": "#0000",                  // Usar guías transparentes en el editor.
+    "scrollbarSlider.background": "#fb09",                     // Usar barras de desplazamiento amarillas.
+    "tab.border": "#0000",                                     // Usar bordes de pestaña tarnsparentes.
+    "tree.indentGuidesStroke": "#0000"                         // Usar guías transparentes en el árbol.
+  },
   /* CodeSnap */
   "codesnap.backgroundColor": "transparent",                   // Usar fondo transparente.
   "codesnap.boxShadow": "#0009 0 .25em .75em",                 // Sombra del recuadro.
