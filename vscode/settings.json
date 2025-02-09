@@ -14,7 +14,6 @@
   "workbench.colorTheme": "Brio Terminal Yellow-Dark",
   "workbench.colorCustomizations": {
     "activityBarTop.activeBorder": "#fb0",
-    "activityBarTop.background": "#000",
     "commandCenter.border": "#fb0",
     "contrastBorder": "#0000",
     "editorGroupHeader.border": "#0000",

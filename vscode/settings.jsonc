@@ -20,7 +20,6 @@
   "workbench.colorTheme": "Brio Terminal Yellow-Dark",         // Tema de color del área de trabajo.
   "workbench.colorCustomizations": {                           // Personalizaciones de color del área de trabajo.
     "activityBarTop.activeBorder": "#fb0",                     // Borde activo de la barra de actividades superior.
-    "activityBarTop.background": "#000",                       // Fondo de la barra de actividades superior.
     "commandCenter.border": "#fb0",                            // Borde del centro de comandos.
     "contrastBorder": "#0000",                                 // Borde de contraste.
     "editorGroupHeader.border": "#0000",                       // Borde del encabezado del grupo de editores.
