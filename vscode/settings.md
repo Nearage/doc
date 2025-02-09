@@ -91,11 +91,11 @@ Esta sección abarca la configuración de extensiones específicas instaladas en
 
 Extensión que permite establecer un tema personalizado para el editor.
 
-> **Name**: Cyber Dev Colors
-> **Id**: adetena.cyber-dev-colors
-> **Description**: Cyber developer color theme.
-> **Version**: 1.0.0
-> **Publisher**: adetena
+> **Name**: Cyber Dev Colors  
+> **Id**: adetena.cyber-dev-colors  
+> **Description**: Cyber developer color theme.  
+> **Version**: 1.0.0  
+> **Publisher**: adetena  
 > **VS Marketplace Link**: https://marketplace.visualstudio.com/items?itemName=adetena.cyber-dev-colors
 
 ```jsonc
