@@ -99,12 +99,24 @@ Extensión que permite establecer un tema personalizado para el editor.
 > **VS Marketplace Link**: https://marketplace.visualstudio.com/items?itemName=HUSAM.brio-terminal-yellow
 
 ```json
-"workbench.colorTheme": "Brio Terminal Yellow-Dark",
-"workbench.colorCustomizations": {
-  "editorIndentGuide.background1": "#0000",
-  "scrollbarSlider.background": "#fb09",
-  "tab.border": "#0000",
-  "tree.indentGuidesStroke": "#0000",
+"workbench.colorTheme": "Brio Terminal Yellow-Dark",         // Tema de color del área de trabajo.
+"workbench.colorCustomizations": {                           // Personalizaciones de color del área de trabajo.
+  "activityBarTop.activeBorder": "#fb0",                     // Borde activo de la barra de actividades superior.
+  "activityBarTop.background": "#000",                       // Fondo de la barra de actividades superior.
+  "commandCenter.border": "#fb0",                            // Borde del centro de comandos.
+  "editorGroupHeader.border": "#0000",                       // Borde del encabezado del grupo de editores.
+  "editorIndentGuide.background1": "#0000",                  // Fondo de la guía de sangría del editor.
+  "list.inactiveSelectionBackground": "#fb09",               // Fondo de la selección inactiva en listas.
+  "scrollbarSlider.background": "#fb09",                     // Fondo del control deslizante de la barra de desplazamiento.
+  "sideBar.border": "#fb00",                                 // Borde de la barra lateral.
+  "sideBarActivityBarTop.border": "#0000",                   // Borde de la barra de actividades superior en la barra lateral.
+  "sideBarSectionHeader.background": "#111",                 // Fondo del encabezado de sección de la barra lateral.
+  "sideBarSectionHeader.border": "#fb00",                    // Borde del encabezado de sección de la barra lateral.
+  "sideBarTitle.border": "#fb0",                             // Borde del título de la barra lateral.
+  "statusBar.border": "#fb0",                                // Borde de la barra de estado.
+  "tab.border": "#0000",                                     // Borde de las pestañas.
+  "tree.indentGuidesStroke": "#0000",                        // Trazo de las guías de sangría en árboles.
+  "widget.border": "#fb0"                                    // Borde de los widgets.
 },
 ```
 
