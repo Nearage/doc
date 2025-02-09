@@ -87,7 +87,7 @@ Configuración de combinaciones de teclas personalizadas para mejorar la eficien
 
 Esta sección abarca la configuración de extensiones específicas instaladas en Visual Studio Code, detallando su propósito y los parámetros clave que afectan su comportamiento.
 
-### Brio Terminal Yellow
+### Cyber Dev Colors
 
 Extensión que permite establecer un tema personalizado para el editor.
 
