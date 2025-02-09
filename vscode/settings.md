@@ -98,7 +98,7 @@ Extensión que permite establecer un tema personalizado para el editor.
 > **Publisher**: HUSAM  
 > **VS Marketplace Link**: https://marketplace.visualstudio.com/items?itemName=HUSAM.brio-terminal-yellow
 
-```json
+```jsonc
 "workbench.colorTheme": "Brio Terminal Yellow-Dark",         // Tema de color del área de trabajo.
 "workbench.colorCustomizations": {                           // Personalizaciones de color del área de trabajo.
   "activityBarTop.activeBorder": "#fb0",                     // Borde activo de la barra de actividades superior.
