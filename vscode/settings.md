@@ -42,6 +42,7 @@ Configuraciones relacionadas con la distribución y disposición de las barras y
 
 ```jsonc
 "workbench.activityBar.location": "top",                     // Posición de la barra de actividades.
+"workbench.colorTheme": "Brio Terminal Yellow-Dark",         // Usar el tema Brio Terminal Yellow-Dark.
 "workbench.sideBar.location": "right",                       // Posición de la barra lateral.
 ```
 
@@ -87,6 +88,17 @@ Configuración de combinaciones de teclas personalizadas para mejorar la eficien
 
 Esta sección abarca la configuración de extensiones específicas instaladas en Visual Studio Code, detallando su propósito y los parámetros clave que afectan su comportamiento.
 
+### Brio Terminal Yellow
+
+Extensión que permite establecer un tema personalizado para el editor.
+
+> **Name**: Brio Terminal Yellow  
+> **Id**: HUSAM.brio-terminal-yellow  
+> **Description**: A VS Code Theme for Brio's Technical Teams  
+> **Version**: 0.0.1  
+> **Publisher**: HUSAM  
+> **VS Marketplace Link**: https://marketplace.visualstudio.com/items?itemName=HUSAM.brio-terminal-yellow
+
 ### CodeSnap
 
 Extensión que permite capturar capturas de pantalla de fragmentos de código con un diseño atractivo y personalizable.
@@ -96,7 +108,7 @@ Extensión que permite capturar capturas de pantalla de fragmentos de código co
 > **Description**: 📷 Take beautiful screenshots of your code\
 > **Version**: 1.3.4\
 > **Publisher**: adpyke\
-> **VS Marketplace Link**: [https://marketplace.visualstudio.com/items?itemName=adpyke.codesnap](https://marketplace.visualstudio.com/items?itemName=adpyke.codesnap)
+> **VS Marketplace Link**: https://marketplace.visualstudio.com/items?itemName=adpyke.codesnap
 
 ```jsonc
 "codesnap.backgroundColor": "transparent",                   // Usar fondo transparente.
@@ -117,20 +129,23 @@ Extensiones de inteligencia artificial para asistencia en la programación media
 > **Description**: Your AI pair programmer\
 > **Version**: 1.266.0\
 > **Publisher**: GitHub\
-> **VS Marketplace Link**: [https://marketplace.visualstudio.com/items?itemName=GitHub.copilot](https://marketplace.visualstudio.com/items?itemName=GitHub.copilot)
+> **VS Marketplace Link**: https://marketplace.visualstudio.com/items?itemName=GitHub.copilot
+
+```jsonc
+"github.copilot.enable": {                                   // Configuración de GitHub Copilot para lenguajes específicos.
+  "markdown": true,                                          // Habilitar GitHub Copilot para Markdown.
+},
+```
 
 > **Name**: GitHub Copilot Chat\
 > **Id**: GitHub.copilot-chat\
 > **Description**: AI chat features powered by Copilot\
 > **Version**: 0.24.0\
 > **Publisher**: GitHub\
-> **VS Marketplace Link**: [https://marketplace.visualstudio.com/items?itemName=GitHub.copilot-chat](https://marketplace.visualstudio.com/items?itemName=GitHub.copilot-chat)
+> **VS Marketplace Link**: https://marketplace.visualstudio.com/items?itemName=GitHub.copilot-chat
 
 ```jsonc
 "github.copilot.chat.localeOverride": "es",                  // Anula la configuración de la región del sistema.
-"github.copilot.enable": {                                   // Configuración de GitHub Copilot para lenguajes específicos.
-  "markdown": true,                                          // Habilitar GitHub Copilot para Markdown.
-},
 ```
 
 ### Todo Tree
@@ -142,7 +157,7 @@ Extensión que permite resaltar y organizar comentarios con etiquetas como TODO,
 > **Description**: Show TODO, FIXME, etc. comment tags in a tree view\
 > **Version**: 0.0.226\
 > **Publisher**: Gruntfuggly\
-> **VS Marketplace Link**: [https://marketplace.visualstudio.com/items?itemName=Gruntfuggly.todo-tree](https://marketplace.visualstudio.com/items?itemName=Gruntfuggly.todo-tree)
+> **VS Marketplace Link**: https://marketplace.visualstudio.com/items?itemName=Gruntfuggly.todo-tree
 
 ```jsonc
 "todo-tree.general.tags": [                                  // Etiquetas utilizadas en los comentarios.
@@ -186,5 +201,5 @@ Extensión que permite resaltar y organizar comentarios con etiquetas como TODO,
 
 ## Ejemplo
 
-El repositorio contiene un archivo [settings.jsonc](./settings.jsonc) completo y comentado a modo de demostración, así como un archivo [settings.json](./settings.json), que reúne todas estas configuraciones en un solo lugar para su fácil implementación en Visual Studio Code.
+El repositorio contiene un archivo [settings.jsonc](./settings.jsonc) completo y comentado a modo de demostración, así como un archivo [settings.json](./settings.json), que reúne todas estas configuraciones en un solo lugar para su fácil implementación en Visual Studio Code. Además se incluyen archivos similares para los atajos de teclado en [keybindings.jsonc](./keybindings.jsonc) y [keybinginds.json](./keybindings.json).
 

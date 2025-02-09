@@ -9,6 +9,7 @@
   "keyboard.dispatch": "keyCode",
   "window.titleBarStyle": "custom",
   "workbench.activityBar.location": "top",
+  "workbench.colorTheme": "Brio Terminal Yellow-Dark",
   "workbench.sideBar.location": "right",
   "git.defaultBranchName": "main",
   "codesnap.backgroundColor": "transparent",
@@ -20,43 +21,43 @@
   "codesnap.showWindowTitle": true,
   "github.copilot.chat.localeOverride": "es",
   "github.copilot.enable": {
-    "markdown": true,
+    "markdown": true
   },
   "todo-tree.general.tags": [
     " edit ",
     " info ",
     " todo ",
-    " warn ",
+    " warn "
   ],
   "todo-tree.highlights.defaultHighlight": {
     "borderRadius": "1em",
     "gutterIcon": true,
-    "type": "tag",
+    "type": "tag"
   },
   "todo-tree.highlights.customHighlight": {
     " edit ":{
       "background": "#0f9",
       "foreground": "#000",
       "icon": "pencil",
-      "iconColour": "#0f9",
+      "iconColour": "#0f9"
     },
     " info ": {
       "background": "#09f",
       "foreground": "#000",
       "icon": "info",
-      "iconColour": "#09f",
+      "iconColour": "#09f"
     },
     " todo ": {
       "background": "#fff",
       "foreground": "#000",
       "icon": "checklist",
-      "iconColour": "#fff",
+      "iconColour": "#fff"
     },
     " warn ": {
       "background": "#fd0",
       "foreground": "#000",
       "icon": "alert",
-      "iconColour": "#fd0",
-    },
-  },
+      "iconColour": "#fd0"
+    }
+  }
 }

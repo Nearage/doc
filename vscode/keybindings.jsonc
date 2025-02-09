@@ -1,0 +1,25 @@
+[
+  {
+    "key": "shift+alt+f",                                      // Shift + Alt + F
+    "command": "editor.action.formatDocument",                 // Formatea el documento.
+    "when": "editorTextFocus && !editorReadonly"               // Cuando el editor está enfocado y no es de solo lectura.
+  },              
+  {              
+    "key": "*",                                                // Cualquier tecla
+    "command": "-editor.action.formatDocument"                 // Deshabilita el comando predeterminado.
+  },              
+  {              
+    "key": "ctrl+shift+c",                                     // Ctrl + Shift + C
+    "command": "editor.action.commentLine",                    // Comenta la línea.
+    "when": "editorTextFocus && !editorReadonly"               // Cuando el editor está enfocado y no es de solo lectura.
+  },              
+  {              
+    "key": "*",                                                // Cualquier tecla
+    "command": "-editor.action.commentLine"                    // Deshabilita el comando predeterminado.
+  },              
+  {              
+    "key": "alt+s",                                            // Alt + S
+    "command": "codesnap.start",                               // Inicia la captura de pantalla.
+    "when": "editorTextFocus && !editorReadonly"               // Cuando el editor está enfocado y no es de solo lectura.
+  }
+]

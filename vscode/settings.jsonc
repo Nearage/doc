@@ -13,6 +13,7 @@
   "window.titleBarStyle": "custom",                            // Estilo de la barra de título.
   /* Workbench */
   "workbench.activityBar.location": "top",                     // Posición de la barra de actividades.
+  "workbench.colorTheme": "Brio Terminal Yellow-Dark",         // Usar el tema Brio Terminal Yellow-Dark.
   "workbench.sideBar.location": "right",                       // Posición de la barra lateral.
   /* Git */
   "git.defaultBranchName": "main",                             // Nombre predeterminado para nuevas ramas.
@@ -27,44 +28,44 @@
   /* GitHub Copilot + GitHub Copilot Chat */
   "github.copilot.chat.localeOverride": "es",                  // Anula la configuración de la región del sistema.
   "github.copilot.enable": {                                   // Configuración de GitHub Copilot para lengujes específicos.
-    "markdown": true,                                          // Habilitar GitHub Copilot para Markdown.
+    "markdown": true                                           // Habilitar GitHub Copilot para Markdown.
   },
   /* Todo Tree */
   "todo-tree.general.tags": [                                  // Etiquetas.
     " edit ",                                                  // Etiqueta para anotaciones de edición.
     " info ",                                                  // Etiqueta para notas informativas.
     " todo ",                                                  // Etiquera para tareas pendientes.
-    " warn ",                                                  // Etiqueta para resaltar puntos críticos.
+    " warn "                                                   // Etiqueta para resaltar puntos críticos.
   ],
   "todo-tree.highlights.defaultHighlight": {                   // Resaltado predeterminado.
     "borderRadius": "1em",                                     // Usar bordes redondeados.
     "gutterIcon": true,                                        // Mostrar icono en el margen.
-    "type": "tag",                                             // Restaltar etiqueta.
+    "type": "tag"                                              // Restaltar etiqueta.
   },
   "todo-tree.highlights.customHighlight": {                    // Resaltado personalizado.
     " edit ":{                                                 // Estilo de la etiqueta " edit ".
       "background": "#0f9",                                    // Usar fondo de color turquesa.
       "foreground": "#000",                                    // Usar texto de color negro.
       "icon": "pencil",                                        // Usar icono de lápiz.
-      "iconColour": "#0f9",                                    // Usar icono de color turquesa.
+      "iconColour": "#0f9"                                     // Usar icono de color turquesa.
     },
     " info ": {                                                // Estilo de la etiqueta " info ".
       "background": "#09f",                                    // Usar fondo de color azul.
       "foreground": "#000",                                    // Usar texto de color negro.
       "icon": "info",                                          // Usar icono de información.
-      "iconColour": "#09f",                                    // Usar icono de color azul.
+      "iconColour": "#09f"                                     // Usar icono de color azul.
     },
     " todo ": {                                                // Estilo de la etiqueta " todo ".
       "background": "#fff",                                    // Usar fondo de color blanco.
       "foreground": "#000",                                    // Usar texto de color negro.
       "icon": "checklist",                                     // Usar icono de lista de tareas.
-      "iconColour": "#fff",                                    // Usar icono de color blanco.
+      "iconColour": "#fff"                                     // Usar icono de color blanco.
     },
     " warn ": {                                                // Estilo de la etiqueta " warn ".
       "background": "#fd0",                                    // Usar fondo de color amarillo.
       "foreground": "#000",                                    // Usar texto de color negro.
       "icon": "alert",                                         // Usar icono de alerta.
-      "iconColour": "#fd0",                                    // Usar icono de color amarillo.
-    },
-  },
+      "iconColour": "#fd0"                                     // Usar icono de color amarillo.
+    }
+  }
 }
