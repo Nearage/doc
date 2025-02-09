@@ -22,6 +22,7 @@
     "activityBarTop.activeBorder": "#fb0",                     // Borde activo de la barra de actividades superior.
     "activityBarTop.background": "#000",                       // Fondo de la barra de actividades superior.
     "commandCenter.border": "#fb0",                            // Borde del centro de comandos.
+    "contrastBorder": "#0000",                                 // Borde de contraste.
     "editorGroupHeader.border": "#0000",                       // Borde del encabezado del grupo de editores.
     "editorIndentGuide.background1": "#0000",                  // Fondo de la guía de sangría del editor.
     "list.inactiveSelectionBackground": "#fb09",               // Fondo de la selección inactiva en listas.

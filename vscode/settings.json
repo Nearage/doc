@@ -16,6 +16,7 @@
     "activityBarTop.activeBorder": "#fb0",
     "activityBarTop.background": "#000",
     "commandCenter.border": "#fb0",
+    "contrastBorder": "#0000",
     "editorGroupHeader.border": "#0000",
     "editorIndentGuide.background1": "#0000",
     "list.inactiveSelectionBackground": "#fb09",
